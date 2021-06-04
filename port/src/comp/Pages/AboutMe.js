@@ -29,7 +29,7 @@ class Aboutme extends React.Component {
             spacing={3}
             style={{ height: "100%", padding: "1vh" }}
           >
-            <Grid item xs={3}>
+            <Grid item md={3}>
               <Card>
                 <CardContent>
                   <CardHeader title="Richard Woessner" />
@@ -59,7 +59,7 @@ class Aboutme extends React.Component {
                 </CardContent>
               </Card>
             </Grid>
-            <Grid item xs={9} justify="flex-end">
+            <Grid item md={9} justify="flex-end">
               <Card color style={{ height: "100%" }}>
                 one
               </Card>
