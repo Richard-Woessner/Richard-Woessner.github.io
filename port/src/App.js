@@ -7,12 +7,12 @@ import { Link, Element } from "react-scroll";
 
 function App() {
   return (
-    <Container maxWidth="xl">
-      <Grid>
+    <Container maxWidth="100%" style={{padding:0}}>
+      
         <Header />
-        <Body />
+        <Body /> 
         
-      </Grid>
+      
     </Container>
   );
 }
