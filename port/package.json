@@ -10,20 +10,16 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-<<<<<<< HEAD
     "jquery": "^3.6.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-full-page": "^0.1.11",
     "react-ga": "^3.3.0",
-=======
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
->>>>>>> parent of 1cc16020 (added landing page and some work page)
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
+    "react-sky": "^1.1.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
