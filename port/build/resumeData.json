@@ -1,0 +1,133 @@
+{
+  "main": {
+    "name": "Richard Woessner",
+    "occupation": "Software Engineer",
+    "description": "I am a Problem solver and Tech enthusiast. I'm always ready to work on new projects and learn new things. I'm looking for my next step this Fall of 2022",
+    "image": "0.jpg",
+    "bio": "Hello my name is Richard Woessner, I am a senior at the university of Cincinnati and I come from the small city of Painesville, OH. I have been into development for my entire life, beginning with my first blogs on AOL. During High School, I was lucky enough to get an offer to go to Auburn Career Center, where I could further my understanding and application of Web Development. That is where I learned about the basics of web development, like HTML, CSS, JS, and PHP. This led me to truly understand that this is what I wanted to do for a living, solving problems with my skills in technology so I went to the University of Cincinnati and will soon be leaving to move on to my next adventure.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "Woessnrw@mail.uc.edu",
+    "phone": "440-488-1715",
+    "address": {
+      "street": "2643 Highland Avenue",
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "zip": "45219"
+    },
+    "website": "http://www.RichardW.tech",
+    "resumedownload": "https://mailuc-my.sharepoint.com/:b:/g/personal/woessnrw_mail_uc_edu/Eaes0HgtGzNEqBnaGfHBHgUB-JmCH1RhiLNbG-8-jD53PA?e=2HdFl3",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/richard-woessner/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Richard-Woessner",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "University of Cincinnati",
+        "degree": "IT - Software Development / Data Technologies",
+        "graduated": "May 2022",
+        "description": "Relevant Coursework: Web Design, Information Security, Data Programming, Data Visualization, System Analysis and Design, Contemporary Database Systems, and Enterprise App Development"
+      },
+      {
+        "school": "Auburn Career Center",
+        "degree": "Web Programming & Design",
+        "graduated": "June 2017",
+        "description": "At Auburn Career Center, I got a head start learning the fundamentals of web development."
+      }
+    ],
+    "work": [
+      {
+        "company": "Whitney Home Care LLC",
+        "title": "Web Developer",
+        "years": "April 2018 - June 2018",
+        "description": "Plan, design, and build the look and feel of their official website."
+      },
+      {
+        "company": "Lampros Labs",
+        "title": "Backend Developer",
+        "years": "August 2019 - December 2019",
+        "description": "Implement backend solutions for WordPress applications."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "acmWebScraper",
+        "category": "Selenium Web scraper created for my Professors Dataset",
+        "image": "py.png",
+        "url": "https://github.com/Richard-Woessner/acmWebScraper"
+      },
+      {
+        "title": "LiftLogr",
+        "category": "A time Logging application built in Springboot & Thymeleaf",
+        "image": "timeLogr.png",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "LiftLogger",
+        "category": "Current passion project. That I am using to push my skills in Full-stack development",
+        "image": "liftLogger.png",
+        "url": "https://github.com/Richard-Woessner/liftLogger"
+      },
+      {
+        "title": "Resume Website",
+        "category": "My Resume built on top of a React Template",
+        "image": "resume-website.jpg",
+        "url": "http://www.RichardW.tech"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
