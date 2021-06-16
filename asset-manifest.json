@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Richard-Woessner.github.io/static/css/main.bab0b925.chunk.css",
+    "main.js": "/Richard-Woessner.github.io/static/js/main.2fc00501.chunk.js",
+    "main.js.map": "/Richard-Woessner.github.io/static/js/main.2fc00501.chunk.js.map",
+    "runtime-main.js": "/Richard-Woessner.github.io/static/js/runtime-main.30c8c8e5.js",
+    "runtime-main.js.map": "/Richard-Woessner.github.io/static/js/runtime-main.30c8c8e5.js.map",
+    "static/js/2.44ce4667.chunk.js": "/Richard-Woessner.github.io/static/js/2.44ce4667.chunk.js",
+    "static/js/2.44ce4667.chunk.js.map": "/Richard-Woessner.github.io/static/js/2.44ce4667.chunk.js.map",
+    "index.html": "/Richard-Woessner.github.io/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/Richard-Woessner.github.io/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.44ce4667.chunk.js.LICENSE.txt": "/Richard-Woessner.github.io/static/js/2.44ce4667.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30c8c8e5.js",
+    "static/js/2.44ce4667.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.2fc00501.chunk.js"
+  ]
+}
