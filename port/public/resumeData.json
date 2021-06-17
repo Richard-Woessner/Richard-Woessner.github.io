@@ -2,9 +2,9 @@
   "main": {
     "name": "Richard Woessner",
     "occupation": "Software Engineer",
-    "description": "I am a Problem solver and Tech enthusiast. I'm always ready to work on new projects and learn new things. I'm looking for my next step this Fall of 2022",
+    "description": "A problem solver eager to work on new projects and to learn new technologies. Seeking opportunities to strengthen and develop my skills in Fall 2021",
     "image": "0.jpg",
-    "bio": "Hello my name is Richard Woessner, I am a senior at the university of Cincinnati and I come from the small city of Painesville, OH. I have been into development for my entire life, beginning with my first blogs on AOL. During High School, I was lucky enough to get an offer to go to Auburn Career Center, where I could further my understanding and application of Web Development. That is where I learned about the basics of web development, like HTML, CSS, JS, and PHP. This led me to truly understand that this is what I wanted to do for a living, solving problems with my skills in technology so I went to the University of Cincinnati and will soon be leaving to move on to my next adventure.",
+    "bio": "Hello my name is Richard Woessner, I am a senior at the University of Cincinnati and I come from the small city of Painesville, OH. I have been into development for my entire life, beginning with my first blogs on AOL. During High School, I was lucky enough to get an offer to go to Auburn Career Center, where I could further my understanding and application of Web Development. That is where I learned about the basics of web development, like HTML, CSS, JS, and PHP. This led me to truly understand that this is what I wanted to do for a living, solving problems with my skills in technology. I hope to continue to push myself and see what other problems I can solve.",
     "contactmessage": "Thank you for checking out my page. I hope to hear from you soon.",
     "email": "Woessnrw@mail.uc.edu",
     "phone": "440-488-1715",
@@ -30,7 +30,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Here are few of the skills that I have worked with in the past",
     "education": [
       {
         "school": "University of Cincinnati",
@@ -42,7 +42,7 @@
         "school": "Auburn Career Center",
         "degree": "Web Programming & Design",
         "graduated": "June 2017",
-        "description": "At Auburn Career Center, I got a head start learning the fundamentals of web development."
+        "description": "Here I got a head start learning the fundamentals of web technologies."
       }
     ],
     "work": [
@@ -62,31 +62,43 @@
     "skills": [
       {
         "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
         "level": "80%"
       },
       {
-        "name": "VueJs",
+        "name": "Python",
+        "level": "90%"
+      },
+      {
+        "name": "Java",
         "level": "50%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "50%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "RestAPI",
+        "level": "80%"
+      },
+      {
+        "name": "SQL",
+        "level": "90%"
       },
       {
         "name": "MongoDB",
         "level": "80%"
+      },
+      {
+        "name": "Ability to learn",
+        "level": "100%"
       }
     ]
   },
@@ -114,7 +126,7 @@
         "title": "Resume Website",
         "category": "My Resume built on top of a React Template",
         "image": "port.png",
-        "url": "http://www.RichardW.tech"
+        "url": "https://richard-woessner.github.io/"
       }
     ]
   },
@@ -127,6 +139,25 @@
       {
         "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
         "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  },
+  "interests":{
+    "interests":[
+      {
+        "title":"Starlink",
+        "picture":"starlink.png",
+        "text":"StarLink is an ISP whose goal is to offer highspeed internet to the entire earth. I am extremely passionate in freedom of information, and I believe great things will happen when more people can utilize the internet and teach themselves great things with it. I contribute most of my knowledge from YouTube and the internet, so it makes me happy when everyone gets the same chances that I did growing up. I cannot wait to see what innovations this technology can lead to."
+      },
+      {
+        "title":"Innovative Technologies",
+        "picture":"tech.png",
+        "text":"From self-driving cars to prosthetic limbs, I have a deep love for all Innovative Technologies. I believe engineers are here to make lives better and with todays exponential advancements its great to see the impact we can have on people. My biggest goal is for cars to be truly self-driving within the next 10 years. With this technology it will give more freedom to the elderly and disabled, while increasing the safety of the road for everyone!"
+      },
+      {
+        "title":"Fitness & Sports",
+        "picture":"sports.png",
+        "text":"Late in high school Sports became a big part of who I was. I played on the Football team and threw on the track team. Since then, my love for exercise and sports has not gone away. While I no longer play those sports, I found different passions in lifting and running. I have run in multiple 5k’s and hope to improve my time in the future. "
       }
     ]
   }
