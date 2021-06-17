@@ -78,7 +78,6 @@ class Interests extends Component {
               <Grid container direction="row">
                 <Grid item xs={12} sm={3}>
                   <Grid container justify="space-between" direction="row" spacing={1}>
-
                       {tabs}
                     
                   </Grid>
