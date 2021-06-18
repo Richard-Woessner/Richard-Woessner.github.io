@@ -111,10 +111,10 @@
         "url": "https://github.com/Richard-Woessner/acmWebScraper"
       },
       {
-        "title": "LiftLogr",
+        "title": "TimeLogr",
         "category": "A time Logging application built in Springboot & Thymeleaf",
         "image": "timeLogr.png",
-        "url": "http://www.timbakerdev.com"
+        "url": "https://github.com/ATMueller/TimeLogr"
       },
       {
         "title": "LiftLogger",
