@@ -15,7 +15,7 @@
       "zip": "45219"
     },
     "website": "http://www.RichardW.tech",
-    "resumedownload": "https://mailuc-my.sharepoint.com/:b:/g/personal/woessnrw_mail_uc_edu/Eaes0HgtGzNEqBnaGfHBHgUB-JmCH1RhiLNbG-8-jD53PA?e=2HdFl3",
+    "resumedownload": "https://mailuc-my.sharepoint.com/:b:/g/personal/woessnrw_mail_uc_edu/Ea2r6JQsRipDlXD07TpbFyMBRkhXtp2Vb-NZ8uzxpOTxdg?e=o16xf2",
     "social": [
       {
         "name": "linkedin",
@@ -111,10 +111,10 @@
         "url": "https://github.com/Richard-Woessner/acmWebScraper"
       },
       {
-        "title": "TimeLogr",
+        "title": "LiftLogr",
         "category": "A time Logging application built in Springboot & Thymeleaf",
         "image": "timeLogr.png",
-        "url": "https://github.com/ATMueller/TimeLogr"
+        "url": "http://www.timbakerdev.com"
       },
       {
         "title": "LiftLogger",
