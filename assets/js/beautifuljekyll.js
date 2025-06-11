@@ -44,6 +44,8 @@ let BeautifulJekyllJS = {
     } else {
       $(".navbar").removeClass("navbar-dark").addClass("navbar-light");
     }
+
+    $(".navbar").removeClass("navbar-light").addClass("navbar-dark");
   },
 
   initImgs : function() {
