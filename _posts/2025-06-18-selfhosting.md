@@ -30,13 +30,13 @@ I used to hate docker for development, I couldn't find the logs for service I ne
 - Docker allows you to pass projects with multiple service requirements quickly. Linux, Windows, Mac it doesn't matter. 
 - It allows you to develop on the same fake system as everyone else. Which is great for open source.
 
+#### Security
+I run multiple web apps that I would normally be hesitant to put on my home server, The idea of code that I don't understand 100% running on my network would worry me, luckily Docker allows you to put applications in a box and only give it the permission it needs. Meaning it does not have free reigns to your system. My specialty is not cyber security so don't download any Docker app container because of me.
+
 {: .box-warning}
  **Side Note** <br/>
  I actually had a few issues using docker on a Apple Silicon MacBook pro. I had to look it up but it seems to be multiple issues. Mac does not support containerization, Macs file system is different than Linux.<br/>
  I recommend Orbstack as a docker alternative it been running amazing for me 
-
-#### Security
-I run multiple web apps that I would normally be hesitant to put on my home server, The idea of code that I don't understand 100% running on my network would worry me, luckily Docker allows you to put applications in a box and only give it the permission it needs. Meaning it does not have free reigns to your system. My specialty is not cyber security so don't download any Docker app container because of me.
   
 ### Cloudflare + Cloudflared
 Cloudflare has been great to work with once I learned a bit more. Cloudflare tunnels allows you to expose your server to the internet safely. You dont want to put your IP out there for anyone to see, malicious actors can attack your networks with DDOS, sniff for insecure ports, and overall just something you dont want out there. It also reduces the need for port forward and intense firewall configureation.
