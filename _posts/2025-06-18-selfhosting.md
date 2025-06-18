@@ -30,11 +30,11 @@ I used to hate docker for development, I couldn't find the logs for service I ne
 - Docker allows you to pass projects with multiple service requirements quickly. Linux, Windows, Mac it doesn't matter. 
 - It allows you to develop on the same fake system as everyone else. Which is great for open source.
 
-> **Side Note** 
->
-> I actually had a few issues using docker on a Apple Silicon MacBook pro. I had to look it up but it seems to be multiple issues. Mac does not support containerization, Macs file system is different than Linux.
->
-> I recommend Orbstack as a docker alternative it been running amazing for me 
+{: .box-warning}
+ **Side Note** 
+ I actually had a few issues using docker on a Apple Silicon MacBook pro. I had to look it up but it seems to be multiple issues. Mac does not support containerization, Macs file system is different than Linux.
+
+ I recommend Orbstack as a docker alternative it been running amazing for me 
 
 #### Security
 I run multiple web apps that I would normally be hesitant to put on my home server, The idea of code that I don't understand 100% running on my network would worry me, luckily Docker allows you to put applications in a box and only give it the permission it needs. Meaning it does not have free reigns to your system. My specialty is not cyber security so don't download any Docker app container because of me.
