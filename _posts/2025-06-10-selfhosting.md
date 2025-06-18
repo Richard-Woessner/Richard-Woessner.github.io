@@ -15,11 +15,13 @@ I guess you could say my first experience with self hosting would be when I crea
 
 Fast forward 12 years and I discovered self hosting from a friend of mine. I started because I wanted to run a local LLM. This was a great decision because I gained so much.
 - I corrected a lack of system knowledge
-	- This might be a me issue but when I first started developing I didn't understand development environments that well
+	- This might be a me issue but when I first started developing I didn't understand development environments that well<br>
+
 - I lost any fear of contributing to open source
-	- First few years in my career I felt like I lacked something to open source projects that I use. This can be debated but I felt way more comfortable once I got a better understanding of software build and packaging process. 
+	- First few years in my career I felt like I lacked something to open source projects that I use. This can be debated but I felt way more comfortable once I got a better understanding of software build and packaging process. <br>
+
 - Resparked my interests
-	- I just found a new subset of one of my favorite hobbies tinkering with tech.
+	- I just found a new subset of one of my favorite hobbies tinkering with tech.<br>
 	  
 	  
 ## My favorite tools / what I learned
