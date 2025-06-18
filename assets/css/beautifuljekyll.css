@@ -844,7 +844,7 @@ table tr {
   padding: 0;
 }
 table tr:nth-child(2n) {
-  background-color: #8f8e8e;
+  background-color: #f8f8f8;
 }
 table tr th,
 table tr td {
@@ -869,7 +869,7 @@ table tr td :last-child {
 
 code {
   padding: 0.125rem 0.25rem;
-  color: var(--navbar-text-col);
+  color: #c7254e;
   background-color: #f9f2f4;
   border-radius: 0.25rem;
 }
@@ -878,7 +878,6 @@ pre code {
   padding: 0;
   background-color: transparent;
   border-radius: 0;
-  color: var(--navbar-text-col);
 }
 
 pre {
@@ -955,7 +954,6 @@ pre {
   border: 1px solid #eee;
   border-left-width: 0.3125rem;
   border-radius: 0.3125rem 0.1875rem 0.1875rem 0.3125rem;
-  color: #222;
 }
 
 .box-note {
@@ -974,9 +972,8 @@ pre {
 }
 
 .box-success {
-  background-color: #056405;
+  background-color: #98FB98;
   border-left-color: #3CB371;
-  color:#000;
 }
 
 /* --- Misc blog post styles --- */
