@@ -31,9 +31,8 @@ I used to hate docker for development, I couldn't find the logs for service I ne
 - It allows you to develop on the same fake system as everyone else. Which is great for open source.
 
 {: .box-warning}
- **Side Note** 
- I actually had a few issues using docker on a Apple Silicon MacBook pro. I had to look it up but it seems to be multiple issues. Mac does not support containerization, Macs file system is different than Linux.
-
+ **Side Note** <br/>
+ I actually had a few issues using docker on a Apple Silicon MacBook pro. I had to look it up but it seems to be multiple issues. Mac does not support containerization, Macs file system is different than Linux.<br/>
  I recommend Orbstack as a docker alternative it been running amazing for me 
 
 #### Security
