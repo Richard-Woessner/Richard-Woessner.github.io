@@ -2,7 +2,7 @@
 layout: post
 title: Procedural Generation Simplified
 subtitle: Today we can create worlds
-thumbnail-img: /assets/img/Terrain.jpg
+cover-img: /assets/img/Terrain.jpg
 # share-img: /assets/img/path.jpg
 tags: [Software, Gaming]
 author: Richard Woessner
