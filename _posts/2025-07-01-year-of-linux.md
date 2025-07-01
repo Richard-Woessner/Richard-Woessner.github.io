@@ -60,9 +60,7 @@ Even with all of those issues, the growth of the Linux kernel has been crazy the
 
 
 ## Cites
-[Europe wants to free itself from US tech. Can it? - POLITICO](https://www.politico.com/newsletters/digital-future-daily/2025/05/07/daniella-euro-stack-00333636?utm_source=chatgpt.com)
-
-[European cloud market is being dominated by three big players - TechRadar](https://www.techradar.com/news/european-cloud-market-is-being-dominated-by-three-big-players?utm_source=chatgpt.com)
-
-[Operating Systems Statistics By Usage, Users and Revenue (2025)](https://coolest-gadgets.com/operating-systems-statistics/?utm_source=chatgpt.com)
+- [Europe wants to free itself from US tech. Can it? - POLITICO](https://www.politico.com/newsletters/digital-future-daily/2025/05/07/daniella-euro-stack-00333636?utm_source=chatgpt.com)
+- [European cloud market is being dominated by three big players - TechRadar](https://www.techradar.com/news/european-cloud-market-is-being-dominated-by-three-big-players?utm_source=chatgpt.com)
+- [Operating Systems Statistics By Usage, Users and Revenue (2025)](https://coolest-gadgets.com/operating-systems-statistics/?utm_source=chatgpt.com)
 
