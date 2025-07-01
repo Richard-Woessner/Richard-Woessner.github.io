@@ -2,7 +2,7 @@
 layout: post
 title: Linux is about to get a lot better!
 subtitle: Praise FOSS
-cover-img: /assets/img/untitled.jpg
+cover-img: /assets/img/untitled.png
 # share-img: /assets/img/path.jpg
 tags: [Software, Gaming, Linux, ]
 author: Richard Woessner
@@ -59,15 +59,10 @@ Even with all of those issues, the growth of the Linux kernel has been crazy the
 
 
 
-
-
-
-
-
-## Cite
+## Cites
 [Europe wants to free itself from US tech. Can it? - POLITICO](https://www.politico.com/newsletters/digital-future-daily/2025/05/07/daniella-euro-stack-00333636?utm_source=chatgpt.com)
 
-[European cloud market is being dominated by three big players | TechRadar](https://www.techradar.com/news/european-cloud-market-is-being-dominated-by-three-big-players?utm_source=chatgpt.com)
+[European cloud market is being dominated by three big players - TechRadar](https://www.techradar.com/news/european-cloud-market-is-being-dominated-by-three-big-players?utm_source=chatgpt.com)
 
 [Operating Systems Statistics By Usage, Users and Revenue (2025)](https://coolest-gadgets.com/operating-systems-statistics/?utm_source=chatgpt.com)
 
