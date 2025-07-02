@@ -2,6 +2,8 @@ name             = "blog"          # must be unique across your account
 account_id       = "$CLOUDFLARE_ACCOUNT_ID"
 compatibility_date = "2025-07-02"
 
+assets = { directory = "./_site" }
+
 # Use EITHER block ↓ depending on where you deploy
 # ---- Workers Site ----
 # workers_dev = true
