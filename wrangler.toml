@@ -1,0 +1,13 @@
+name             = "blog"          # must be unique across your account
+account_id       = "$CLOUDFLARE_ACCOUNT_ID"
+compatibility_date = "2025-07-02"
+
+# Use EITHER block ↓ depending on where you deploy
+# ---- Workers Site ----
+# workers_dev = true
+# [site]
+# bucket = "_site"
+# entry-point = "."
+
+# ---- Cloudflare Pages Direct Upload ----
+# nothing extra; Wrangler infers it from the --project-name flag

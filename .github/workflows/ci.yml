@@ -1,26 +1,46 @@
-name: Beautiful Jekyll CI
-on: [push, pull_request]
+name: Jekyll → Cloudflare Workers
+on:
+  push:
+    branches: [main]     # build prod on merges to main
+  pull_request:          # build a preview for every PR
+
 jobs:
-  build:
-    name: Build Jekyll
+  build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read        # checkout
+      deployments: write     # let Wrangler create PR previews
     steps:
+      # 1. Checkout blog source
       - uses: actions/checkout@v4
+
+      # 2. Ruby tool-chain for Jekyll
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
+
+      # 3. Install gems & appraisal matrix
       - name: Install dependencies
-        run: bundle install && bundle exec appraisal install
-      - name: Setup Pages
-        id: configure-pages
-        uses: actions/configure-pages@v5
-      - name: Setup CI config
         run: |
-          echo "---" > _config_ci.yml
-          echo "baseurl: ${{ steps.configure-pages.outputs.base_path }}" >> _config_ci.yml
+          bundle install --without development test
+          bundle exec appraisal install
+
+      # 4. Build the site
       - name: Build site
         env:
           JEKYLL_ENV: production
-        run: bundle exec appraisal jekyll build --future --config _config_ci.yml,_config.yml
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        run: bundle exec appraisal jekyll build --future
+
+      # 5. Deploy the generated _site folder to Cloudflare
+      - name: Deploy to Cloudflare
+        uses: cloudflare/wrangler-action@v3
+        with:
+          # ─────── credentials ───────
+          apiToken:   ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId:  ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # ─────── command ───────────
+          # For a pure Workers-Site:
+          # command: deploy
+          #
+          # For Cloudflare **Pages** (recommended for a static blog):
+          command: pages deploy ./_site --project-name=blog
