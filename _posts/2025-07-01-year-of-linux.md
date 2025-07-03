@@ -9,7 +9,7 @@ author: Richard Woessner
 comments: true
 ---
 
-Soon Linux is about to get a lot more popular, here is why.
+Linux is about to get a lot more popular, here is why.
 
 
 Linux is a Free Opensource Operating System. This OS has been loved by many tech hobbyist and IT professionals, which is why it is 63% of Global Server Operating systems according to Fortune Business Insight. I believe that Linux is about to get a lot more attention in the coming years.
