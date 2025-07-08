@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: My Blog
+title: Woessner's Blog
 
 # Your name to show in the footer
 author: Richard Woessner III
@@ -23,7 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https:woessner.us"
+  Author's home: "https://blog.woessner.us"
 
 ################
 # --- Logo --- #
@@ -96,7 +96,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "Blog.Woessner.us"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
