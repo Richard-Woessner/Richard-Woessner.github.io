@@ -213,6 +213,10 @@ site-css:
 # To use CommentBox, sign up for a Project ID on https://commentbox.io
 #commentbox: "" # Project ID, e.g. "5694267682979840-proj"
 
+# To use Commento, provide the URL of your Commento instance
+# Sign up at https://commento.io/ or self-host at https://gitlab.com/commento/commento
+commento: "https://commento.woessner.us" # URL of your Commento instance, e.g. "https://commento.example.com"
+
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
