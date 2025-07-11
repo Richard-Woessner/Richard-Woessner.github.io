@@ -35,6 +35,11 @@ pre code {
   color: #000;
 }
 
-#commento-guest-details{
+.commento-guest-details{
   margin-left: 0.2rem;
+}
+
+/* all p elements in .commento-comments */
+.commento-comments p {
+  color: whitesmoke;
 }
