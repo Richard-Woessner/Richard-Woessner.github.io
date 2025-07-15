@@ -43,3 +43,24 @@ pre code {
 .commento-comments p {
   color: whitesmoke;
 }
+
+li {
+  padding-bottom: 1.25rem !important;
+}
+
+.language-plaintext {
+  color: red !important;
+}
+
+h4 {
+  font-size: 1.35rem;
+}
+
+/* add indent for p */
+p {
+ padding-left: 1.25rem;
+}
+
+ul {
+  padding-left: 4.50rem;
+}

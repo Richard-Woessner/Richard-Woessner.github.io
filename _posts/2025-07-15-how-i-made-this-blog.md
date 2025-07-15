@@ -67,7 +67,7 @@ I saw in the config file that Beautiful Jekyll allows comment plugins like Disqu
 
 Since nothing fit my needs, I found an open-source alternative called Commento.
 
-#### Commento
+#### Enter Commento
 **Commento** is an open-source, privacy-focused commenting system designed as a lightweight alternative to Disqus and it allows self hosting. Meaning this checked every box so I moved ahead.
 
 1. I copied the `docker-compose.yml` and made minor adjustments like ports and storage.
@@ -128,22 +128,24 @@ commento: "https://commento.woessner.us" # URL of your Commento
 
 **Added a component to render the embedding if config.commento is filled**
 ```
-%% Embedding provided by commento web app %%
-{% if site.commento %}
+# Embedding provided by commento web app %
+if site.commento
 
-<script defer src="{{ site.commento }}/js/commento.js"></script>
+<script defer src="{% raw %}{{ site.commento }}{% endraw %}/js/commento.js"></script>
 <div id="commento"></div>
 
-{% endif %}
+end
 ```
 
 **Added that component to the root of comment components**
 ```
+{% raw %}
   {% include utterances-comment.html %}
   {% include giscus-comment.html %}
   {% include commentbox.html %}
   {% include commento.html %}
 {% endif %}
+{% endraw %}
 ```
 
 That's it!
