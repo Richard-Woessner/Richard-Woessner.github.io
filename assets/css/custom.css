@@ -14,6 +14,7 @@ pre code {
   background-color: transparent;
   border-radius: 0;
   color: var(--navbar-text-col);
+  font-family: 'Roboto', Courier, monospace;
 }
 
 /* --- Notification boxes --- */
@@ -45,7 +46,7 @@ pre code {
 }
 
 li {
-  padding-bottom: 1.25rem !important;
+  padding-bottom: 1.15rem;
 }
 
 .language-plaintext {
@@ -56,11 +57,38 @@ h4 {
   font-size: 1.35rem;
 }
 
-/* add indent for p */
-p {
- padding-left: 1.25rem;
+/* add indent for all elements except headers */
+/* 
+.blog-post > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  padding-left: 1.25rem;
+}*/
+
+.blog-post ul {
+  padding-left: 3.5rem;
+}  
+li > ul {
+  padding-top: 1.15rem;
+  padding-bottom: none !important;
+}
+.blog-post p {
+  line-height: 1.4;
+  padding-left: 1.15rem;
+} 
+
+/* Header font */
+.blog-post h1,
+.blog-post h2,
+.blog-post h3,
+.blog-post h4,
+.blog-post h5,
+.blog-post h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-ul {
-  padding-left: 4.50rem;
+/* Custom font for blog content (excluding code, links, and icons) */
+.blog-post p,
+.blog-post li,
+.blog-post blockquote {
+  font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
 }

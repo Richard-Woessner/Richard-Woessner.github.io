@@ -38,14 +38,16 @@ I already use obsidian, meaning that I can turn my notes into a static site. Its
 ### We're doing this live
 Now I wanted to add this to my domain woessner.us. I love Cloudflare, they're fast, reliable, use lava lamps to seed their SSL's, and they have a lot of features, which made this harder than I thought. I used Cloudflare pages before but this time they suggested I use the new Cloudflare workers and these are the differences
 
-#### Pages vs Workers
-##### Pages
-Cloudflare's platform for static sites, it's integrated with GitHub. It doesn't have any builders, or logic to it so it essentially just grabs the static site, puts it on their server and creates a DNS entry with your domain.
+#### 📄 Pages
+Cloudflare’s platform for **static sites**, integrated with GitHub.  
+- No builders or logic.
+- Simply grabs the static site and deploys it.
+- Creates a DNS entry with your domain.
 
-##### Workers
-Cloudflare's serverless platform that allows you to run programs on their servers, including APIs, handling HTTP(S) requests, authentication, etc. 
-
-For my use case Pages would have been easier to use, but they asked me to try out workers and that pages will be deprecated one day so why not give it a try.
+#### ⚙️ Workers
+Cloudflare’s **serverless platform** that lets you:
+- Run programs on their servers.
+- Handle APIs, HTTP(S) requests, authentication, etc.
 
 
 #### Problems
